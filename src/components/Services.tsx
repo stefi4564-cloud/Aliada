@@ -159,7 +159,7 @@ const Services = () => {
                   <ArrowRight size={20} />
                 </button>
                 <a 
-                  href="https://wa.me/573001234567?text=Hola, me interesa conocer más sobre sus servicios"
+                  href="https://wa.me/573213101998?text=Hola, me interesa conocer más sobre sus servicios"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-full bg-green-500 text-white px-6 py-4 rounded-full hover:bg-green-600 transition-colors flex items-center justify-center gap-2 font-semibold"
