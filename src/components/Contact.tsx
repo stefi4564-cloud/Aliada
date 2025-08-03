@@ -21,7 +21,7 @@ const Contact = () => {
     e.preventDefault();
     // Aquí se integraría con un servicio de email
     const whatsappMessage = `Hola, soy ${formData.name}. Estoy interesado en ${formData.service}. Mi mensaje: ${formData.message}. Mi email: ${formData.email}, teléfono: ${formData.phone}`;
-    window.open(`https://wa.me/573001234567?text=${encodeURIComponent(whatsappMessage)}`, '_blank');
+    window.open(`https://wa.me/573213101999?text=${encodeURIComponent(whatsappMessage)}`, '_blank');
   };
 
   return (
@@ -51,7 +51,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <p className="font-semibold text-gray-900">Teléfono</p>
-                    <p className="text-gray-600">+57 300 123 4567</p>
+                    <p className="text-gray-600">+57 321 310 1999</p>
                   </div>
                 </div>
                 
@@ -96,7 +96,7 @@ const Contact = () => {
                 Agenda una videollamada gratuita de 30 minutos y conversemos sobre tu proyecto.
               </p>
               <a 
-                href="https://wa.me/573001234567?text=Hola, me gustaría agendar una videollamada gratuita para hablar sobre mi proyecto"
+                href="https://wa.me/573213101999?text=Hola, me gustaría agendar una videollamada gratuita para hablar sobre mi proyecto"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-amber-500 text-white px-6 py-3 rounded-full hover:bg-amber-600 transition-colors font-semibold inline-block"
