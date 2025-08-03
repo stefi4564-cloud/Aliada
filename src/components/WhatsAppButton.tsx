@@ -4,7 +4,7 @@ import { MessageCircle } from 'lucide-react';
 const WhatsAppButton = () => {
   const handleWhatsAppClick = () => {
     const message = "Hola! Me interesa conocer más sobre los servicios de Aliada Estratega. ¿Podrían darme más información?";
-    window.open(`https://wa.me/573001234567?text=${encodeURIComponent(message)}`, '_blank');
+    window.open(`https://wa.me/573213101999?text=${encodeURIComponent(message)}`, '_blank');
   };
 
   return (
